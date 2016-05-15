@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@android:id/text1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:padding="@dimen/margin"
+  android:gravity="center"
+  android:background="@drawable/item_background"
+  android:checkMark="@null"
+  android:clickable="true"/>

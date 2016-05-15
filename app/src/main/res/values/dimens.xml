@@ -1,0 +1,8 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="margin">8dp</dimen>
+  <dimen name="inset">4dp</dimen>
+  <dimen name="item_border_width">1dp</dimen>
+
+  <dimen name="configuration_width">300dp</dimen>
+</resources>

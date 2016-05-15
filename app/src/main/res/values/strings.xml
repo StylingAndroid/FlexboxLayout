@@ -1,0 +1,40 @@
+<resources>
+  <string name="app_name">FlexboxLayout Playground</string>
+  <string name="add_item">Add Item</string>
+  <string name="delete_item">Delete Item</string>
+  <string name="item_default">Item %1$s</string>
+
+  <string name="flex_wrap">Flex Wrap</string>
+  <string name="flex_direction">Flex Direction</string>
+  <string name="justify_content">Justify Content</string>
+  <string name="align_items">Align Items</string>
+  <string name="align_content">Align Content</string>
+
+  <string name="row">Row</string>
+  <string name="row_reverse">Row Reverse</string>
+  <string name="column">Column</string>
+  <string name="column_reverse">Column Reverse</string>
+
+  <string name="no_wrap">No wrap</string>
+  <string name="wrap">Wrap</string>
+  <string name="wrap_reverse">Wrap reverse</string>
+
+  <string name="flex_start">Flex Start</string>
+  <string name="flex_end">Flex End</string>
+  <string name="center">Center</string>
+  <string name="space_around">Space Around</string>
+  <string name="space_between">Space Between</string>
+  <string name="stretch">Stretch</string>
+  <string name="baseline">Baseline</string>
+  <string name="auto">Auto</string>
+
+  <string name="item_flex_grow">Flex Grow</string>
+  <string name="item_flex_shrink">Flex Shrink</string>
+  <string name="item_align_self">Align Self</string>
+  <string name="item_text">Text</string>
+  <string name="item_flex_basis_percent">Flex Basis Percent</string>
+  <string name="no_value">&lt;No Value&gt;</string>
+  <string name="confirm_delete">Are you sure you want to delete the selected item(s)?</string>
+  <string name="yes">Yes</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string-array name="array_flex_direction"
+    translatable="false">
+    <item>@string/row</item>
+    <item>@string/row_reverse</item>
+    <item>@string/column</item>
+    <item>@string/column_reverse</item>
+  </string-array>
+
+  <string-array name="array_flex_wrap"
+    translatable="false">
+    <item>@string/no_wrap</item>
+    <item>@string/wrap</item>
+    <item>@string/wrap_reverse</item>
+  </string-array>
+
+  <string-array name="array_justify_content"
+    translatable="false">
+    <item>@string/flex_start</item>
+    <item>@string/flex_end</item>
+    <item>@string/center</item>
+    <item>@string/space_between</item>
+    <item>@string/space_around</item>
+  </string-array>
+
+  <string-array name="array_align_items"
+    translatable="false">
+    <item>@string/flex_start</item>
+    <item>@string/flex_end</item>
+    <item>@string/center</item>
+    <item>@string/baseline</item>
+    <item>@string/stretch</item>
+  </string-array>
+
+  <string-array name="array_align_content"
+    translatable="false">
+    <item>@string/flex_start</item>
+    <item>@string/flex_end</item>
+    <item>@string/center</item>
+    <item>@string/space_between</item>
+    <item>@string/space_around</item>
+    <item>@string/stretch</item>
+  </string-array>
+
+  <string-array name="array_align_self"
+    translatable="false">
+    <item>@string/auto</item>
+    <item>@string/flex_start</item>
+    <item>@string/flex_end</item>
+    <item>@string/center</item>
+    <item>@string/baseline</item>
+    <item>@string/stretch</item>
+  </string-array>
+</resources>

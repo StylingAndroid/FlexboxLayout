@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_margin="@dimen/margin"
+  android:padding="@dimen/margin">
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:stretchColumns="1">
+
+      <TableRow
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin">
+
+        <TextView
+          android:layout_marginStart="@dimen/margin"
+          android:labelFor="@+id/item_text"
+          android:text="@string/item_text" />
+
+        <EditText
+          android:id="@id/item_text"
+          android:layout_marginStart="@dimen/margin"
+          android:imeOptions="flagNoExtractUi"
+          android:inputType="text" />
+      </TableRow>
+
+      <TableRow
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin">
+
+        <TextView
+          android:layout_marginStart="@dimen/margin"
+          android:labelFor="@+id/item_flex_grow"
+          android:text="@string/item_flex_grow" />
+
+        <EditText
+          android:id="@id/item_flex_grow"
+          android:layout_marginStart="@dimen/margin"
+          android:imeOptions="flagNoExtractUi"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin">
+
+        <TextView
+          android:layout_marginStart="@dimen/margin"
+          android:labelFor="@+id/item_flex_shrink"
+          android:text="@string/item_flex_shrink" />
+
+        <EditText
+          android:id="@id/item_flex_shrink"
+          android:layout_marginStart="@dimen/margin"
+          android:imeOptions="flagNoExtractUi"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin">
+
+        <TextView
+          android:layout_marginStart="@dimen/margin"
+          android:labelFor="@+id/select_align_self"
+          android:text="@string/item_align_self" />
+
+        <Spinner android:id="@id/select_align_self" />
+      </TableRow>
+
+      <TableRow
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin">
+
+        <TextView
+          android:layout_marginStart="@dimen/margin"
+          android:labelFor="@+id/item_flex_basis_percent"
+          android:text="@string/item_flex_basis_percent" />
+
+        <EditText
+          android:id="@id/item_flex_basis_percent"
+          android:layout_marginStart="@dimen/margin"
+          android:hint="@string/no_value"
+          android:imeOptions="flagNoExtractUi"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+    </TableLayout>
+
+  </ScrollView>
+
+</android.support.v7.widget.CardView>

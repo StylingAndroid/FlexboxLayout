@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_margin="@dimen/margin"
+  android:padding="@dimen/margin">
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:stretchColumns="1">
+
+      <TableRow
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin">
+
+        <TextView
+          android:layout_marginStart="@dimen/margin"
+          android:labelFor="@+id/select_flex_direction"
+          android:text="@string/flex_direction" />
+
+        <Spinner android:id="@id/select_flex_direction" />
+      </TableRow>
+
+      <TableRow
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin">
+
+        <TextView
+          android:layout_marginStart="@dimen/margin"
+          android:labelFor="@+id/select_flex_wrap"
+          android:text="@string/flex_wrap" />
+
+        <Spinner android:id="@id/select_flex_wrap" />
+      </TableRow>
+
+
+      <TableRow
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin">
+
+        <TextView
+          android:layout_marginStart="@dimen/margin"
+          android:labelFor="@+id/select_justify_content"
+          android:text="@string/justify_content" />
+
+        <Spinner android:id="@id/select_justify_content" />
+      </TableRow>
+
+
+      <TableRow
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin">
+
+        <TextView
+          android:layout_marginStart="@dimen/margin"
+          android:labelFor="@+id/select_align_items"
+          android:text="@string/align_items" />
+
+        <Spinner android:id="@id/select_align_items" />
+      </TableRow>
+
+
+      <TableRow
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin">
+
+        <TextView
+          android:layout_marginStart="@dimen/margin"
+          android:labelFor="@+id/select_align_content"
+          android:text="@string/align_content" />
+
+        <Spinner android:id="@id/select_align_content" />
+      </TableRow>
+
+    </TableLayout>
+
+  </ScrollView>
+
+</android.support.v7.widget.CardView>

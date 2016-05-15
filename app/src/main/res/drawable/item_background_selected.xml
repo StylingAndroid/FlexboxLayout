@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+  android:insetBottom="@dimen/inset"
+  android:insetLeft="@dimen/inset"
+  android:insetRight="@dimen/inset"
+  android:insetTop="@dimen/inset">
+
+  <shape android:shape="rectangle">
+    <solid android:color="@color/itemSelectedBackground" />
+    <stroke
+      android:width="@dimen/item_border_width"
+      android:color="@color/itemBorder" />
+  </shape>
+
+</inset>
